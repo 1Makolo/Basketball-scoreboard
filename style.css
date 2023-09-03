@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins&family=Tektur&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Scoreboard {
+  text-align: center;
+  background-color: rgb(17, 27, 34);
+  color: white;
+  padding: 3.5rem;
+  font-family: "Black Ops One";
+}
+
+.teams {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  padding: 5rem;
+  font-size: xx-large;
+  font-family: "Black Ops One";
+}
+
+.score {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: red;
+  padding: 0.5rem;
+  font-size: 5rem;
+  font-family: "Black Ops One";
+}
+
+.added-score {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  color: white;
+  font-family: "Black Ops One";
+}
+
+.added-score-1 {
+  display: flex;
+  color: white;
+  padding: 2rem;
+  gap: 0.5rem;
+  font-family: "Black Ops One";
+}
+
+.added-score-2 {
+  display: flex;
+  color: white;
+  padding: 2rem;
+  gap: 0.5rem;
+  font-family: "Black Ops One";
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: #6de7b6;
+  font-size: larger;
+}
+
+.reset-button {
+  background-color: #6de7b6;
+  color: #1f4e3c;
+  padding: 1rem;
+  border: none;
+  border-radius: 3px;
+  font-family: "Black Ops One";
+}
+
+body {
+  background-color: #1f4e3c;
+}
+
+.score-1 {
+  background-color: black;
+  padding: 3rem;
+  font-family: "Black Ops One";
+}
+
+.score-2 {
+  background-color: black;
+  padding: 3rem;
+  font-family: "Black Ops One";
+}
+
+button {
+  color: white;
+  background-color: #1f4e3c;
+  border-radius: 0.5rem;
+  border-color: white;
+  padding: 1rem;
+  font-family: "Black Ops One";
+}
